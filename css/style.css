@@ -5,5 +5,132 @@
 }
 
 .flex{
-display: flex;
+  display: flex;
 }
+
+.flex-direction{
+  flex-direction: row-reverse;
+}
+
+header{
+  height: 5rem;
+  background-color: #add8e6;
+  padding-top: 1rem;
+}
+
+section.container{
+  height: 3rem;
+  width: 900px;
+  background-color: #daa520;
+  margin: auto;
+}
+
+div.logo{
+  width: 20%;
+  border: 3px dotted black;
+}
+
+nav{
+  width: 60%;
+  padding-left: 20%;
+  border: 3px dotted black;
+
+}
+
+div.login{
+  width: 20%;
+  padding-left: 10%;
+  border: 3px dotted black;
+}
+
+div.presentation{
+  height: 25rem;
+  width: 700px;
+  background-color: #ee82ee;
+  margin: auto;
+  border: 3px dotted black;
+}
+
+section.pres-container{
+  height: 31rem;
+  background-color: #00008b;
+  padding-top: 3rem;
+}
+
+section.middle-container{
+  height: 35rem;
+  background-color: rgb(255, 255, 255);
+  padding-top: 2.5rem;
+}
+
+section.middle-container-grey{
+  height: 35rem;
+  background-color: #d3d3d3;
+  padding-top: 2.5rem;
+}
+
+div.middle{
+  height: 30rem;
+  width: 900px;
+  margin: auto;
+}
+
+div.image{
+  width: 60%;
+  background: #1e90ff;
+  border: 3px dotted black;
+}
+
+div.text{
+  width: 40%;
+  background-color: #ffc0cb;
+  border: 3px dotted black;
+}
+
+section.download-container{
+  height: 900px;
+  padding-top: 50px;
+  background-color: #d3d3d3;
+}
+
+div.download{
+  height: 800px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #228b22;
+  border: 3px dotted black;
+
+}
+
+footer{
+  background-color: #23272a;
+  height: 35rem;
+  padding-top:1rem;
+}
+
+section.foot-container{
+  height: 33rem;
+  margin: 0 auto;
+  width: 900px;
+
+}
+
+div.speak{
+  width:40%;
+  background-color: #f08080;
+  border: 3px dotted black;
+}
+
+div.product{
+  width:20%;
+  background-color: #20b2aa;
+  border: 3px dotted black;
+}
+
+footer.footerino{
+  height: 5rem;
+  background-color: #23272a;
+  padding-top: 1rem;
+  margin-top: 2px;
+}
+
