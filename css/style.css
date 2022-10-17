@@ -18,47 +18,88 @@ body{
 
 header{
   height: 5rem;
-  background-color: #add8e6;
+  background-color: #255ee9;
   padding-top: 1rem;
+  margin: 0 auto;
+
 }
 
 section.container{
   height: 3rem;
   width: 900px;
-  background-color: #daa520;
   margin: auto;
 }
 
 div.logo{
   width: 20%;
-  padding-top: 0.75rem;
-  padding-left: 5%;
+  text-align: center;
+
 }
 
 nav{
   width: 60%;
-  padding-left: 20%;
-  padding-top: 0.75rem;
-
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 0.60rem;
+  justify-content: space-evenly;
 }
 
 div.login{
   width: 20%;
-  padding-left: 10%;
-  padding-top: 0.75rem;
+  text-align: center;
+}
+
+button.accedi{
+  border: none;
+  height: 2rem;
+  width: 6rem;
+  font-weight: bold;
+  border-radius: 20px;
 }
 
 div.presentation{
   height: 25rem;
-  width: 700px;
-  background-color: #ee82ee;
+  width: 600px;
+  /* background-color: #ee82ee; */
   margin: auto;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
+}
+
+div.presentation p{
+  padding-top: 3rem;
+  line-height: 120%;
+}
+
+button.mac,
+button.browser{
+  border: none;
+  margin-top: 2rem;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 30px;
+  font-weight: bold;
+
+}
+
+button.browser{
+  color: white;
+  background-color: #23272a;
 }
 
 section.pres-container{
   height: 31rem;
-  background-color: #00008b;
+  background-image: url("../img/jumbo.png");
+  background-size:cover;
+  background-repeat: no-repeat;
   padding-top: 3rem;
+  margin: 0 auto;
+
 }
 
 section.middle-container{
@@ -67,9 +108,20 @@ section.middle-container{
   padding-top: 2.5rem;
 }
 
+h2{
+  font-size: 48px;
+}
+
+div.text p{
+  padding-top: 2rem;
+  line-height: 150%;
+}
+
 section.middle-container-grey{
   height: 35rem;
   background-color: #d3d3d3;
+  /* background-image: url("../img/wave.svg"); */
+
   padding-top: 2.5rem;
 }
 
@@ -81,27 +133,59 @@ div.middle{
 
 div.image{
   width: 60%;
-  background: #1e90ff;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+div.image-read{
+  background-image: url(../img/item1.svg);
+}
+
+div.image-vocal{
+  background-image: url(../img/item2.svg);
+}
+
+div.image-roles{
+  background-image: url(../img/item3.svg);
 }
 
 div.text{
   width: 40%;
-  background-color: #ffc0cb;
+  /* background-color: #ffc0cb; */
 }
 
 section.download-container{
   height: 900px;
   padding-top: 50px;
-  background-color: #d3d3d3;
+  background-color: rgba(211, 211, 211, 0.671);
 }
 
 div.download{
   height: 800px;
   width: 900px;
   margin: 0 auto;
-  background-color: #228b22;
+  text-align: center;
+}
+
+h3{
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  background-position: 100px;
 
 }
+
+button.down-mac{
+  border: none;
+  color: white;
+  height: 2rem;
+  width: 10rem;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #92a6e8;
+  }
+
 
 footer{
   background-color: #23272a;
@@ -118,14 +202,41 @@ section.foot-container{
 
 div.speak{
   width:40%;
-  background-color: #f08080;
+  /* background-color: #f08080; */
+}
+
+h4{
+  color: #6c82ce;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+div.speak img{
+  height: 1rem;
+  padding-left: 10px;
+}
+
+span{
+  color: white;
 }
 
 div.product{
   width:20%;
-  background-color: #20b2aa;
-  border: 3px dotted rgb(255, 255, 255);
 }
+
+ul{
+  list-style-type: none;
+  color: white;
+  line-height: 150%;
+}
+
+h5{
+  font-size: 1rem;
+  color: #6c82ce;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+
 
 footer.footerino{
   height: 7rem;
@@ -135,7 +246,6 @@ footer.footerino{
 }
 
 section.buttons-container{
-  background-color: #7fffd4;
   height: 5rem;
   width: 900px;
   margin: auto;
@@ -149,8 +259,17 @@ div.loginbutton{
   width: 7rem;
   text-align: center;
   padding-top: 0.75rem;
-  background-color: #ffb9c4;
 
+}
+
+button.register{
+border: none;
+color: white;
+height: 2rem;
+width: 6rem;
+font-weight: bold;
+border-radius: 20px;
+background-color: #92a6e8;
 }
 
 .border{
