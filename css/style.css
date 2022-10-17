@@ -33,6 +33,7 @@ section.container{
 div.logo{
   width: 20%;
   text-align: center;
+  padding-top: 0.45rem;
 
 }
 
@@ -48,6 +49,8 @@ nav{
 div.login{
   width: 20%;
   text-align: center;
+  padding-top: 0.45rem;
+
 }
 
 button.accedi{
@@ -56,6 +59,11 @@ button.accedi{
   width: 6rem;
   font-weight: bold;
   border-radius: 20px;
+}
+
+button.accedi:hover{
+  color: white;
+  background-color: #23272a;
 }
 
 div.presentation{
@@ -87,9 +95,19 @@ button.browser{
 
 }
 
+button.mac:hover{
+  color: white;
+  background-color: #23272a;
+}
+
 button.browser{
   color: white;
   background-color: #23272a;
+}
+
+button.browser:hover{
+  color: #23272a;
+  background-color: white;
 }
 
 section.pres-container{
@@ -186,6 +204,10 @@ button.down-mac{
   background-color: #92a6e8;
   }
 
+button.down-mac:hover{
+  color: #92a6e8;
+  background-color: white;
+}
 
 footer{
   background-color: #23272a;
@@ -272,6 +294,6 @@ border-radius: 20px;
 background-color: #92a6e8;
 }
 
-.border{
-  border: 3px dotted black;
-}
+button.register:hover{
+  color: #92a6e8;
+  background-color: white;
