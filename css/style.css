@@ -139,7 +139,6 @@ section.middle-container-grey{
   height: 35rem;
   background-color: #d3d3d3;
   /* background-image: url("../img/wave.svg"); */
-
   padding-top: 2.5rem;
 }
 
@@ -175,7 +174,7 @@ div.text{
 section.download-container{
   height: 900px;
   padding-top: 50px;
-  background-color: rgba(211, 211, 211, 0.671);
+  background-color: #d3d3d3;
 }
 
 div.download{
@@ -297,3 +296,20 @@ background-color: #92a6e8;
 button.register:hover{
   color: #92a6e8;
   background-color: white;
+}
+
+section.wave{
+  /* background-image: url("../img/wave.svg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  fill: #d3d3d3;
+}
+
+/* section.wave-inverted{
+  background-image: url("../img/wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  fill: #d3d3d3;
+} */
