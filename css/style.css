@@ -306,10 +306,11 @@ section.wave{
   fill: #d3d3d3;
 }
 
-/* section.wave-inverted{
-  background-image: url("../img/wave.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 200px;
-  fill: #d3d3d3;
-} */
+section.wave-inverted{
+  /* background-image: url("../img/wave.svg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  height: 80px;
+  /* fill: #d3d3d3; */
+  background-color: #d3d3d3;
+}
