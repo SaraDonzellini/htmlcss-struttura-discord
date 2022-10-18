@@ -137,7 +137,7 @@ div.text p{
 
 section.middle-container-grey{
   height: 35rem;
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
   /* background-image: url("../img/wave.svg"); */
   padding-top: 2.5rem;
 }
@@ -174,7 +174,7 @@ div.text{
 section.download-container{
   height: 900px;
   padding-top: 50px;
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
 
 div.download{
@@ -303,7 +303,7 @@ section.wave{
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
-  fill: #d3d3d3;
+  fill: #f6f6f6;
 }
 
 section.wave-inverted{
@@ -312,5 +312,5 @@ section.wave-inverted{
   /* background-size: cover; */
   height: 80px;
   /* fill: #d3d3d3; */
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
